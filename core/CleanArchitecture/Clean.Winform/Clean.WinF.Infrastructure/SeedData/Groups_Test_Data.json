@@ -1,0 +1,26 @@
+[
+  {
+    "groupName": "Administrator",
+    "description": "Group for admin"
+  },
+  {
+    "groupName": "group1",
+    "description": "group1 name for initial testing"
+  },
+  {
+    "groupName": "group2",
+    "description": "group2 name for initial testing"
+  },
+  {
+    "groupName": "group3",
+    "description": "group3 name for initial testing"
+  },
+  {
+    "groupName": "group4",
+    "description": "group4 name for initial testing"
+  },
+  {
+    "groupName": "group5",
+    "description": "group5 name for initial testing"
+  }
+]

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean.WinF.Applications\Clean.WinF.Applications.csproj" />
+    <ProjectReference Include="..\Clean.WinF.Infrastructure\Clean.WinF.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CustomControls\" />
+    <Folder Include="Features\MasterData\" />
+    <Folder Include="Features\GoodIncommings\" />
+    <Folder Include="Features\Helps\" />
+    <Folder Include="Features\Bobbins\" />
+    <Folder Include="Features\Languages\" />
+    <Folder Include="Features\BackupData\" />
+    <Folder Include="Features\Reports\" />
+    <Folder Include="Features\Others\" />
+    <Folder Include="Logs\" />
+    <Folder Include="Icons\" />
+    <Folder Include="Users\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Serilog" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

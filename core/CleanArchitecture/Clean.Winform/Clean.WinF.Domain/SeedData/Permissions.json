@@ -1,0 +1,116 @@
+[
+  {
+    "name": "ACCESS_BP",
+    "code": "P001",
+    "apiUrl": "/auth/authenticate",
+    "description": "Authenticate"
+  },
+  {
+    "name": "SEARCH_USE",
+    "code": "P002",
+    "apiUrl": "/search/user",
+    "description": "Search user autocomplete"
+  },
+  {
+    "name": "SEARCH_DISTRIBUTION_LIST",
+    "code": "P003",
+    "apiUrl": "/search/dblist",
+    "description": ""
+  },
+  {
+    "name": "VIEW_PERMISSION",
+    "code": "P004",
+    "apiUrl": "/permissions",
+    "description": "Get all permissions"
+  },
+  {
+    "name": "VIEW_ROLE",
+    "code": "P101",
+    "apiUrl": "/roles",
+    "description": "Get all roles"
+  },
+  {
+    "name": "CREATE_ROLE",
+    "code": "P102",
+    "apiUrl": "/roles",
+    "description": "Create role"
+  },
+  {
+    "name": "UPDATE_ROLE",
+    "code": "P103",
+    "apiUrl": "/roles/update",
+    "description": "Update role"
+  },
+  {
+    "name": "DELETE_ROLE",
+    "code": "P104",
+    "apiUrl": "/roles/delete",
+    "description": "Delete role"
+  },
+  {
+    "name": "VIEW_GROUP",
+    "code": "P201",
+    "apiUrl": "/groups",
+    "description": "Get all groups"
+  },
+  {
+    "name": "CREATE_GROUP",
+    "code": "P202",
+    "apiUrl": "/groups",
+    "description": "Create group"
+  },
+  {
+    "name": "UPDATE_GROUP",
+    "code": "P203",
+    "apiUrl": "/groups/update",
+    "description": "Update group"
+  },
+  {
+    "name": "DELETE_GROUP",
+    "code": "P204",
+    "apiUrl": "/groups/delete",
+    "description": "Delete group"
+  },
+  {
+    "name": "ADD_USER_TO_GROUP",
+    "code": "P301",
+    "apiUrl": "/groups/addusers",
+    "description": "Add user(s)/ distribution list to group"
+  },
+  {
+    "name": "REMOVE_USER_FROM_GROUP",
+    "code": "P302",
+    "apiUrl": "/groups/deluser",
+    "description": "Remove user/ distribution list from user group"
+  },
+  {
+    "name": "ADD_DBLIST_TO_GROUP",
+    "code": "P303",
+    "apiUrl": "/groups/{id}/dblist",
+    "description": "Add distribution list to user group"
+  },
+  {
+    "name": "REMOVE_DBLIST_FROM_GROUP",
+    "code": "P304",
+    "apiUrl": "/groups/deluser",
+    "description": "Remove user/ distribution list to user group"
+  },
+  {
+    "name": "ADD_ROLE_TO_GROUP",
+    "code": "P305",
+    "apiUrl": "/groups/addroles",
+    "description": "Add role(s) to group"
+  },
+  {
+    "name": "REMOVE_ROLE_FROM_GROUP",
+    "code": "P306",
+    "apiUrl": "/groups/delrole",
+    "description": "Remove role from user group"
+  },
+  {
+    "name": "VIEW_USER_INFO",
+    "code": "P005",
+    "apiUrl": "/users",
+    "description": "Get user information"
+  }
+]

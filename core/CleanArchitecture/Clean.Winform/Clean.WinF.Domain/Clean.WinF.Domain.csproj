@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <AssemblyName>Clean.WinF.Domain</AssemblyName>
+    <RootNamespace>Clean.WinF.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DbContexts\**" />
+    <Compile Remove="IServices\**" />
+    <Compile Remove="Models\**" />
+    <Compile Remove="Repository\**" />
+    <Compile Remove="SeedData\**" />
+    <EmbeddedResource Remove="DbContexts\**" />
+    <EmbeddedResource Remove="IServices\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Repository\**" />
+    <EmbeddedResource Remove="SeedData\**" />
+    <None Remove="DbContexts\**" />
+    <None Remove="IServices\**" />
+    <None Remove="Models\**" />
+    <None Remove="Repository\**" />
+    <None Remove="SeedData\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Users\DistributionList.cs" />
+    <Compile Remove="Entities\Users\DistributionListGroup.cs" />
+    <Compile Remove="Enums\AuthenticateChallenge.cs" />
+    <Compile Remove="Enums\GroupRequest.cs" />
+    <Compile Remove="Enums\LdapType.cs" />
+    <Compile Remove="Enums\MessageReturnType.cs" />
+    <Compile Remove="Enums\PermissionEnum.cs" />
+    <Compile Remove="Enums\RoleStatus.cs" />
+    <Compile Remove="Enums\UserStatus.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean.WinF.Shared\Clean.WinF.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="Services\" />
+    <Folder Include="Specifications\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+  </ItemGroup>
+
+</Project>

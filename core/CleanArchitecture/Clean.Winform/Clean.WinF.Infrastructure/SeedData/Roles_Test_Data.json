@@ -1,0 +1,22 @@
+[
+  {
+    "roleName": "admin",
+    "description": "Admin role"
+  },
+  {
+    "roleName": "user",
+    "description": "Normal user role"
+  },
+  {
+    "roleName": "role1",
+    "description": "Normal role1 role"
+  },
+  {
+    "roleName": "role2",
+    "description": "Normal role2 role"
+  },
+  {
+    "roleName": "role3",
+    "description": "Normal role3 role"
+  }
+]

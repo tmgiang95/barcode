@@ -1,0 +1,35 @@
+[
+  {
+    "userName": "les3hc",
+    "email": "Sinh.Le@vn.bosch.com",
+    "phoneNumber": "+84(28)3812-9000",
+    "fullName": "Le Sinh",
+    "displayName": "Le Sinh (MS/EET11)",
+    "department": "MS/EET11"
+  },
+  {
+    "userName": "hyc1hc",
+    "email": "Chinh.NguyenThiKieu@vn.bosch.com",
+    "phoneNumber": "+84(28)3812-9000",
+    "fullName": "Nguyen Thi Kieu Chinh",
+    "displayName": "Nguyen Thi Kieu Chinh (MS/EET11)",
+    "department": "MS/EET11"
+  },
+  {
+    "userName": "tvv2hc",
+    "email": "Van.TaVan@vn.bosch.com",
+    "phoneNumber": "+84(28)3812-9000",
+    "fullName": "Ta Van Van",
+    "displayName": "Ta Van Van (MS/EET12)",
+    "department": "MS/EET12"
+  },
+  {
+    "userName": "iaa1hc",
+    "email": "Ai.PhamDuc@vn.bosch.com",
+    "phoneNumber": "+84(28)3812-9000",
+    "fullName": "Pham Duc Ai",
+    "displayName": "Pham Duc Ai (MS/EET21)",
+    "department": "MS/EET21"
+  },
+
+]

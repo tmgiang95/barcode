@@ -1,0 +1,24 @@
+[
+  {
+    "userID": "tvv2hc",
+    "email": "Van.TaVan@vn.bosch.com",
+    "phoneNumber": "+84(28)3812-9000",
+    "firstName": "Ta Van",
+    "winAccount": "tvv2hc",
+    "computerNumber": "tvv2hc",
+    "userGroupID": 1,
+    "address": "14 Cong Hoa, P12, Tan Binh",
+    "password": "123456"
+  },
+  {
+    "userID": "Administration",
+    "email": "Van.TaVan@vn.bosch.com",
+    "phoneNumber": "+84(28)3812-9000",
+    "firstName": "Ta Van",
+    "winAccount": "tvv2hc",
+    "computerNumber": "tvv2hc",
+    "userGroupID": 2,
+    "address": "14 Cong Hoa, P12, Tan Binh",
+    "password": "1234567"
+  }
+]

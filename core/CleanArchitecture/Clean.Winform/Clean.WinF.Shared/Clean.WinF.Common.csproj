@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Clean.WinF.Common</RootNamespace>
+    <AssemblyName>Clean.WinF.Common</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Bus\**" />
+    <Compile Remove="CustomErrors\HttpRequest\**" />
+    <Compile Remove="DTOs\**" />
+    <Compile Remove="Enums\**" />
+    <Compile Remove="CustomErrors\Custom\**" />
+    <Compile Remove="Helpers\**" />
+    <Compile Remove="Logging\**" />
+    <Compile Remove="Paging\**" />
+    <Compile Remove="Validator\**" />
+    <EmbeddedResource Remove="Bus\**" />
+    <EmbeddedResource Remove="CustomErrors\HttpRequest\**" />
+    <EmbeddedResource Remove="DTOs\**" />
+    <EmbeddedResource Remove="Enums\**" />
+    <EmbeddedResource Remove="CustomErrors\Custom\**" />
+    <EmbeddedResource Remove="Helpers\**" />
+    <EmbeddedResource Remove="Logging\**" />
+    <EmbeddedResource Remove="Paging\**" />
+    <EmbeddedResource Remove="Validator\**" />
+    <None Remove="Bus\**" />
+    <None Remove="CustomErrors\HttpRequest\**" />
+    <None Remove="DTOs\**" />
+    <None Remove="Enums\**" />
+    <None Remove="CustomErrors\Custom\**" />
+    <None Remove="Helpers\**" />
+    <None Remove="Logging\**" />
+    <None Remove="Paging\**" />
+    <None Remove="Validator\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Constants\ControllerMethodNames.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="StackExchange.Redis" Version="2.5.43" />
+    <PackageReference Include="System.DirectoryServices" Version="5.0.0" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="5.0.0" />
+    <PackageReference Include="TimeZoneConverter" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CustomExceptions\" />
+  </ItemGroup>
+
+</Project>
